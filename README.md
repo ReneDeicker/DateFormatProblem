@@ -1,6 +1,8 @@
 # DateFormatProblem
 Before adding the jackson-annotations maven dependency this method (java/rest/DateEndpoint) returned the date with the expected format:
 
+Method reachable under ```http://localhost:8080/DateFormatProblem-1.0-SNAPSHOT/rs/dates/date```
+
 ```
 @GET
     @Path("/date")
